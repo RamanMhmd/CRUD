@@ -41,7 +41,7 @@ let tmp;
             count:count.value,
             category:category.value.toLowerCase(),
          }
-   if(mood ==='Create'){
+   if(mood =='Create'){
 
          if(newpro.count >0){
             for(let i =0 ; i<newpro.count;i++){
@@ -54,7 +54,7 @@ let tmp;
           }
    }else{
       datapro[ tmp ]=newpro;
-      mood =='Create';
+      mood ='Create';
       submit.innerHTML='Create';
       count.style.display='block';
    }
